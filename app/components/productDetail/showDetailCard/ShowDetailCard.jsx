@@ -2,7 +2,7 @@
 import React from "react";
 import Stars from "../../landingPage/components/stars/Stars";
 import DecQTY from "../../common/inc/decQTY/Inc/DecQTY";
-import ImageMagnifier from "../imageMagnifier/ImageMagnifier";
+// import ImageMagnifier from "../imageMagnifier/ImageMagnifier";
 import Delivery from "../delivery/Delivery";
 import Service from "../service/Service";
 import SoldBy from "../soldBy/SoldBy";
@@ -20,8 +20,8 @@ function ShowDetailCard() {
   return (
     <div className="bg-[rgba(24,57,106,0.25)] grid  grid-cols-3 shadow-lg rounded-lg p-6 backdrop-blur-[5px] border border-[rgba(255,255,255,0.18)] ">
       <div>
-        <ImageMagnifier product={product} thumbnails={thumbnails} />
-        {/* <img src="/makeup.jpeg" className="" /> */}
+        {/* <ImageMagnifier product={product} thumbnails={thumbnails} /> */}
+        <img src="/makeup.jpeg" className="" />
       </div>
       <div className="text-white capitalize ">
         <p className="text-3xl">Pack of makeup products</p>
